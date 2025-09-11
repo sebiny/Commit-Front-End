@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+## 프로젝트 제목: commit (커밋)
+- 프로젝트 설명:
+**현대인들의 규칙적이고 효율적인 시간 관리를 위한 맞춤형 AI 일상 플래너**
+‘커밋’은 바쁜 일상을 보내는 현대인들을 위한 시간 관리 도구로, 수면, 워라밸 등을 고려한 일정 계획을 제공하는 서비스이다.
+사용자는 개인 맞춤형 일정표를 통해 건강한 생활 습관을 유지하고, AI기반 피드백을 통해 지속적인 일정 조정 및 관리를 받을 수 있다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 1. 문제 인식과 해결 방안
 
-## Available Scripts
+### 기획 의도
+  규칙적인 일상을 유지하려는 노력은 현대인이 겪고 있는 많은 문제를 해결할 수 있는 힘을 가지고 있다. 규칙적인 일상은 인지 기능을 키우고 더욱 창의적으로 만들며, 삶에 의미를 부여함으로써 삶에 활력을 불어넣어 주는 등 많은 긍정적인 영향을 야기할 수 있다.
+  커밋을 이용해 사용자가 단순히 일정을 계획하는 것을 넘어서, 건강한 생활 패턴을 유지하며, 전반적인 삶의 질을 향상시킬 수 있는 방향으로 사용자를 이끈다.
+  
+### 2. 서비스 차별점
 
-In the project directory, you can run:
+- **건강 정보 기반의 맞춤형 일정 추천**:
+    - 기존 앱들이 단순히 일정 관리를 돕는 데 비해, commit은 사용자의 생활 패턴을 고려하여 개인 맞춤형 일정을 추천한다. 이는 사용자의 건강과 워라밸을 유지하는 데 도움을 준다.
+- **AI 기반의 하루 피드백 시스템**:
+    - AI를 통해 사용자의 일정을 분석하고, 피드백을 제공한다. 이를 통해서 사용자는 간편하게 하루를 되돌아보고 자연스럽게 생활 습관을 개선할 수 있다.
+- **일정 평가 및 목표 달성률 분석**:
+    - 사용자가 설정한 목표에 대한 성취 평가를 통해 자신의 목표 달성률을 시각적으로 확인할 수 있다. 이는 사용자가 성취감을 느끼고 목표를 지속적으로 달성하고자 하는 의지를 강화한다.
+- **분석 및 피드백**:
+    - 하루, 주, 월 단위로 사용자의 활동을 분석하고 피드백을 제공합니다. 이를 통해 사용자는 자신의 생활 패턴을 이해하고 개선할 수 있다.
 
-### `npm start`
+### 3. 타겟 사용자
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **학생**: 학업과 여가를 균형 있게 관리하고 싶은 사람들
+- **직장인**: 업무와 개인 시간을 효율적으로 조절하고 싶은 사람들
+- **기타 시간 관리를 필요로 하는 모든 현대인들**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 4. 주요 기능
 
-### `npm test`
+### 4.1. 하루 일정표
+: 하루 일정표를 작성함으로써 하루의 목표를 설정하여 하루를 더 효율적이고 능동적으로 살아갈 수 있도록 한다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4.2. 나만의 플래너 작성  규칙 설정
+: 일정표를 작성 하기 전에 큰 틀의 규칙을 설정하여 크거나 작은 변화에도 본질적인 목표가 흔들리지 않도록 한다. 이를 통해 사용자 맞춤형으로 자율성을 보장하면서도 우리 서비스가 추구하는 건강하고 규칙적인 생활을 할 수 있도록 유도한다.
 
-### `npm run build`
+### 4.3. 일정 평가
+: 완료/실패/진행중/연기 등으로 **설정한 목표에 대한 간단한 성취 평가 진행**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 4.4. 분석
+: 사용자가 기록한 달성 계획과 내용을 기반으로 분석 내용을 제공한다.
