@@ -1,44 +1,92 @@
-## 프로젝트 제목: commit (커밋)
-- 프로젝트 설명:
-**현대인들의 규칙적이고 효율적인 시간 관리를 위한 맞춤형 AI 일상 플래너**
-‘커밋’은 바쁜 일상을 보내는 현대인들을 위한 시간 관리 도구로, 수면, 워라밸 등을 고려한 일정 계획을 제공하는 서비스이다.
-사용자는 개인 맞춤형 일정표를 통해 건강한 생활 습관을 유지하고, AI기반 피드백을 통해 지속적인 일정 조정 및 관리를 받을 수 있다.
+# Project Title: Commit
 
-Figma link : https://www.figma.com/design/i83SmA30ftNybzpc6ZvWTC/작심삼일?node-id=0-1&t=1DC7WOkuXSjZDfyy-1 
+### Project Description
 
-### 1. 문제 인식과 해결 방안
+**A personalized AI-powered daily planner designed for efficient and consistent time management.**
 
-### 기획 의도
-  규칙적인 일상을 유지하려는 노력은 현대인이 겪고 있는 많은 문제를 해결할 수 있는 힘을 가지고 있다. 규칙적인 일상은 인지 기능을 키우고 더욱 창의적으로 만들며, 삶에 의미를 부여함으로써 삶에 활력을 불어넣어 주는 등 많은 긍정적인 영향을 야기할 수 있다.
-  커밋을 이용해 사용자가 단순히 일정을 계획하는 것을 넘어서, 건강한 생활 패턴을 유지하며, 전반적인 삶의 질을 향상시킬 수 있는 방향으로 사용자를 이끈다.
-  
-### 2. 서비스 차별점
+**Commit** is a time management tool designed for people with busy lifestyles. It provides personalized schedules that take factors such as sleep and work-life balance into consideration.
 
-- **건강 정보 기반의 맞춤형 일정 추천**:
-    - 기존 앱들이 단순히 일정 관리를 돕는 데 비해, commit은 사용자의 생활 패턴을 고려하여 개인 맞춤형 일정을 추천한다. 이는 사용자의 건강과 워라밸을 유지하는 데 도움을 준다.
-- **AI 기반의 하루 피드백 시스템**:
-    - AI를 통해 사용자의 일정을 분석하고, 피드백을 제공한다. 이를 통해서 사용자는 간편하게 하루를 되돌아보고 자연스럽게 생활 습관을 개선할 수 있다.
-- **일정 평가 및 목표 달성률 분석**:
-    - 사용자가 설정한 목표에 대한 성취 평가를 통해 자신의 목표 달성률을 시각적으로 확인할 수 있다. 이는 사용자가 성취감을 느끼고 목표를 지속적으로 달성하고자 하는 의지를 강화한다.
-- **분석 및 피드백**:
-    - 하루, 주, 월 단위로 사용자의 활동을 분석하고 피드백을 제공합니다. 이를 통해 사용자는 자신의 생활 패턴을 이해하고 개선할 수 있다.
+Through personalized daily schedules, users can maintain healthier lifestyle habits. The service also provides **AI-powered feedback**, helping users continuously adjust and manage their schedules based on their daily activities.
 
-### 3. 타겟 사용자
+**Figma:** https://www.figma.com/design/i83SmA30ftNybzpc6ZvWTC/작심삼일?node-id=0-1&t=1DC7WOkuXSjZDfyy-1
 
-- **학생**: 학업과 여가를 균형 있게 관리하고 싶은 사람들
-- **직장인**: 업무와 개인 시간을 효율적으로 조절하고 싶은 사람들
-- **기타 시간 관리를 필요로 하는 모든 현대인들**
+---
 
-### 4. 주요 기능
+# 1. Problem & Solution
 
-### 4.1. 하루 일정표
-: 하루 일정표를 작성함으로써 하루의 목표를 설정하여 하루를 더 효율적이고 능동적으로 살아갈 수 있도록 한다.
+### Project Motivation
 
-### 4.2. 나만의 플래너 작성  규칙 설정
-: 일정표를 작성 하기 전에 큰 틀의 규칙을 설정하여 크거나 작은 변화에도 본질적인 목표가 흔들리지 않도록 한다. 이를 통해 사용자 맞춤형으로 자율성을 보장하면서도 우리 서비스가 추구하는 건강하고 규칙적인 생활을 할 수 있도록 유도한다.
+Maintaining a consistent daily routine can help address many challenges faced by people in modern society. A regular routine can have various positive effects, such as supporting cognitive function, encouraging creativity, and bringing greater meaning and vitality to everyday life.
 
-### 4.3. 일정 평가
-: 완료/실패/진행중/연기 등으로 **설정한 목표에 대한 간단한 성취 평가 진행**
+**Commit** goes beyond simply helping users create schedules. It aims to guide users toward maintaining healthier lifestyle patterns and improving their overall quality of life through structured and personalized time management.
 
-### 4.4. 분석
-: 사용자가 기록한 달성 계획과 내용을 기반으로 분석 내용을 제공한다.
+---
+
+# 2. Service Differentiation
+
+* **Health-Based Personalized Schedule Recommendations**
+
+  * While many existing apps focus primarily on basic schedule management, **Commit** recommends personalized schedules based on the user's lifestyle patterns.
+  * This helps users maintain a healthier routine while achieving a better work-life balance.
+
+* **AI-Powered Daily Feedback**
+
+  * AI analyzes the user's daily schedule and provides personalized feedback.
+  * Users can easily reflect on their day and gradually improve their lifestyle habits based on the feedback.
+
+* **Schedule Evaluation & Goal Achievement Analysis**
+
+  * Users can evaluate their progress toward their goals and visually track their achievement rates.
+  * This helps users recognize their accomplishments and stay motivated to continue working toward their goals.
+
+* **Activity Analysis & Feedback**
+
+  * The service analyzes user activities on a daily, weekly, and monthly basis and provides feedback.
+  * This allows users to better understand their lifestyle patterns and identify areas for improvement.
+
+---
+
+# 3. Target Users
+
+* **Students**
+
+  * People who want to effectively balance their academic responsibilities and personal time.
+
+* **Working Professionals**
+
+  * People who want to manage their work and personal time more efficiently.
+
+* **Anyone Who Needs Better Time Management**
+
+  * People looking to build a more structured and balanced daily routine.
+
+---
+
+# 4. Key Features
+
+### 4.1. Daily Schedule
+
+Users can create a daily schedule and set goals for the day, helping them live more efficiently and proactively.
+
+### 4.2. Personalized Planner Rules
+
+Before creating a schedule, users can establish their own fundamental planning rules.
+
+This helps users stay aligned with their core goals even when small or significant changes occur throughout the day. It provides users with flexibility and autonomy while encouraging a healthy and consistent lifestyle.
+
+### 4.3. Schedule Evaluation
+
+Users can evaluate their progress toward their planned goals using simple status categories such as:
+
+* **Completed**
+* **Failed**
+* **In Progress**
+* **Postponed**
+
+This allows users to quickly review how well they followed their planned schedule.
+
+### 4.4. Analytics
+
+The service analyzes users' completed plans and recorded activities to provide personalized insights.
+
+Users can review their daily, weekly, and monthly activity patterns and use the insights to improve their future schedules.
